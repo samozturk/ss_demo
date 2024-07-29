@@ -1,2 +1,5 @@
 *_venv/
 *cache*
+.vs/
+=1.5
+*.lock

@@ -1,13 +1,18 @@
 [tool.poetry]
-name = "sightseer"
+name = "ss"
 version = "0.1.0"
 description = ""
-authors = ["Sam"]
+authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+fastapi = "^0.111.1"
+numpy = "1.26.4"
+scikit-learn = "^1.5.1"
 
+[tool.poetry.group.dev.dependencies]
+fastapi = "^0.111.1"
 
 [build-system]
 requires = ["poetry-core"]
